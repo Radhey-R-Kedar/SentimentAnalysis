@@ -14,13 +14,12 @@ This project implements various deep learning models for sentiment analysis on t
 - numpy
 
 Install dependencies using:
-```bash
 pip install -r requirements.txt
 
-Dataset
+## Dataset
 The dataset used in this project is sourced from Kaggle. It contains labeled text data with sentiments such as positive, negative, and neutral. Preprocessing steps include handling missing values, balancing class distribution, and text preprocessing (e.g., tokenization, stopword removal).
 
-File Structure
+## File Structure
 main.ipynb: Jupyter Notebook containing the project code.
 tokenizer.pickle: Pretrained tokenizer for text data.
 Model_M1.h5: Trained CNN model.
@@ -32,18 +31,18 @@ requirements.txt: List of dependencies.
 Training Models
 To train the models, run the code in main.ipynb. Make sure to specify the correct file paths for the dataset.
 
-Testing
+## Testing
 To test the models on new data, use the provided functions in main.ipynb. Example usage is provided in the notebook.
 
-Results
+## Results
 The models achieve an average accuracy of 85% on the test data. Confusion matrices and accuracy metrics are provided for each model.
 
-Additional Notes
+## Additional Notes
 Consider experimenting with different hyperparameters for improved performance.
 The dataset may require further preprocessing or augmentation for better results.
-Author
-Radhey Kedar
+
+## Author
+# Radhey Kedar
 
 
 
-This Markdown document should give a clear structure and formatting to your README file.
